@@ -48,7 +48,6 @@ body{
 .container{
   width: 1200px;
   padding: 0 15px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -69,6 +68,7 @@ body{
   color: #989696;
   text-decoration: none;
   margin-right: 43px;
+  transition: all .3s;
 }
 
 .menu__item:last-child a{
@@ -78,7 +78,7 @@ body{
 .active a,
 .menu__item a:hover{
   color: #010101;
-  transition: all .3s;
+  
 }
 
 .logo {
@@ -119,9 +119,147 @@ body{
   width: 188px;
   height: 57px;
   border: 1px solid #000000;
-  /* padding: 21px 51px; */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto 206px;
+  transition: all ease .3s ;
 }
+
+.header__button:hover{
+  background-color: #1d1e1f;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  color: white;
+  height: 1129px;
+  background: url(../images/black.png) center bottom repeat-x,
+              url(../images/white.png) center bottom repeat-x,
+              #1d1d1d;
+}
+
+.about__inner {
+  padding-top: 128px;
+  display: grid;
+  grid-template-rows: 276px 276px;
+  grid-template-columns: 417px 417px;
+  gap: 178px;
+  justify-content: center;
+}
+
+.about__item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #181818;
+}
+
+.about__year {
+  font-family: 'HelveticaNeueLTProLt';
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about__text {
+  font-family:'Montserrat-Light';
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300; 
+  letter-spacing: 0.02em;
+  color: #b7b7b7;
+}
+
+.teams {
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+.team {
+}
+.team__head {
+  text-align: center;
+}
+.team .team__head h3{
+  font-family: 'HelveticaNeueLTProLt';
+  font-size: 34px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin-bottom: 0;
+}
+.team__desk {
+  font-family: "Merriweather-LightItalic";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+}
+.team__main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.card {
+}
+
+.card img{
+  width: 169px;
+  height: 169px;
+  border-radius: 50%;
+  /* margin-left: 10%; */
+  object-fit: cover;
+  padding: 0;
+}
+
+.card__name {
+  font-family: 'HelveticaNeueLTProLt';
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #464646;
+  text-align: center;
+  margin-bottom: 0;
+  text-align: center;
+}
+.card_desk {
+  font-family: 'HelveticaNeueLTProLt';
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin-top: 0;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons a{
+  width: 21px;
+  height: 18px;
+  color: #e4e4e4;
+  margin: 0 10%;
+  transition: all .3s;
+}
+
+.icons a:hover{
+  color: #808080;
+}
+
+
+
+
