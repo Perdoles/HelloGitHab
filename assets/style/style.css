@@ -430,6 +430,12 @@ body{
   height: 52px;
   background-color: #161616;
   color: white;
+  transition: all .3s;
+}
+
+.cont__form form .btn:hover{
+  cursor: pointer;
+  background-color: rgb(95, 95, 95);
 }
 
 footer h5{
