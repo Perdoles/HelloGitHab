@@ -181,6 +181,7 @@ body{
   margin-bottom: 150px;
 }
 .team {
+  padding: 0 100px;
 }
 .team__head {
   text-align: center;
@@ -244,15 +245,16 @@ body{
 }
 
 .icons{
-  display: flex;
-  justify-content: center;
+  /* margin-left: 25%; */
+  text-align: center;
+  /* display: flex;
+
+  justify-content: center; */
 }
 
 .icons a{
-  width: 21px;
-  height: 18px;
   color: #e4e4e4;
-  margin: 0 10%;
+  margin: 0 5%;
   transition: all .3s;
 }
 
